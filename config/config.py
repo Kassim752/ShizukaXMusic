@@ -7,34 +7,34 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "18641113"))
+API_HASH = getenv("bc5fea81e7bf9f3c0784a0a7d35f9c71")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6093398509:AAHFx1r9qJrOviEZUKnVcm_2g15IU298cS0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://marvel:marvel@marvelcloud0.gse7lpr.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001755297039"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+MUSIC_BOT_NAME = getenv("Life Line Music")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5465568465").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/its-star-boi/ShizukaXMusic",
+    "https://github.com/kassim752/ShizukaXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/its-star-boi/ShizukaXMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/its-star-bo/ShizukaXMusic")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Star_X_Network")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Best_FriendsFor_Ever")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/lifelineofficialchannle420")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TaMilChAtLiFeLiNeGrOuP")
 
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -62,7 +62,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQBtsxhu_dn805GoV1koQBb-1FyiO1Pvn0NGbd7fTVdAxzhbOflEGUPWHmAAPJZUySeeQzif6Ug9XHmVWTfm2ITLJnX_2O20IG26cpM6FDGAoIMq_pOSKg_J18DEL2ZVme7MwA62PU9WqK_-Sx71_cExehlaZ1d66NCmNDmGA-xizoPdXrXOPgITslWdXYK6bwaTl6zEopR3Up47KOXOnFRQaLEAy4zsu_U4Kt0ZF2z46_J007B4oFhy4uWhRr3F7DFY04J3jzgfLzI2y9ipyvvxp-3wmsCjzfSvIWSjf3ymwOXqDfcb2t9oTYh6hynTHbzvtEHjR_Ua0a8MyvNg6jOeAAAAAXdXCY8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -84,10 +84,10 @@ START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/f576595d249f64
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/159d3f9e2d57dd02db970.jpg",
+    "https://te.legra.ph/file/0693276d9efea6e926b35.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/6054be6dbfc0f654db62b.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/0693276d9efea6e926b35.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 
