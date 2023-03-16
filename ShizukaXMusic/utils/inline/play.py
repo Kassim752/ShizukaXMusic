@@ -48,7 +48,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="⁪⁬𝐋ɪғᴇ 𝐋ɪɴᴇ 💌", url=f"{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="⁪⁬𝐋ɪғᴇ 𝐋ɪɴᴇ 💌", url=f"https://t.me/TaMilChAtLiFeLiNeGrOuP"),
         ],
         [
             InlineKeyboardButton(
@@ -81,7 +81,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="⁪⁬𝐋ɪғᴇ 𝐋ɪɴᴇ 💌", url=f"{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="⁪⁬𝐋ɪғᴇ 𝐋ɪɴᴇ 💌", url=f"https://t.me/TaMilChAtLiFeLiNeGrOuP"),
         ],
     ]
     return buttons
@@ -104,7 +104,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="⁪⁬𝐋ɪғᴇ 𝐋ɪɴᴇ 💌", url=f"{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="⁪⁬𝐋ɪғᴇ 𝐋ɪɴᴇ 💌", url=f"https://t.me/TaMilChAtLiFeLiNeGrOuP"),
         ],
     ]
     return buttons
