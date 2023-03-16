@@ -55,9 +55,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "SUPPORT_CHANNEL"
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/lifelineofficialchannle420"
 )  # Example:- https://t.me/TheYukki
-SUPPORT_GROUP = getenv("SUPPORT_CHANNEL", "SUPPORT_GROUP"
+SUPPORT_GROUP = getenv("SUPPORT_CHANNEL", "https://t.me/TaMilChAtLiFeLiNeGrOuP"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
